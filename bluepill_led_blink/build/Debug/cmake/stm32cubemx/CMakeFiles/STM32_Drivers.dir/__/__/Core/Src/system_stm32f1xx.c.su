@@ -1,0 +1,2 @@
+D:/My_Workspace/stm32-workspace/bluepill_led_blink/Core/Src/system_stm32f1xx.c:175:6:SystemInit	4	static
+D:/My_Workspace/stm32-workspace/bluepill_led_blink/Core/Src/system_stm32f1xx.c:224:6:SystemCoreClockUpdate	24	static
