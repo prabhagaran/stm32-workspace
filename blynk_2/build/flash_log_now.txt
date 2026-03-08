@@ -1,0 +1,196 @@
+07:15:47:517       -------------------------------------------------------------------
+07:15:47:517                        STM32CubeProgrammer v2.22.0                  
+07:15:47:517       -------------------------------------------------------------------
+
+07:15:47:517 
+
+07:15:47:521 Log output file:   build\flash_log_now.txt
+07:15:47:522 Command line:  -c port=SWD mode=ur freq=400 -w "D:\My_Workspace\stm32-workspace\blynk_2\build\blynk_2.bin" 0x08000000 -rst -log build\flash_log_now.txt
+07:15:47:522 
+07:15:47:542 ST-LINK SN  : B55B5A1A000000000D00F601
+07:15:47:542 ST-LINK FW  : V2J47S7
+07:15:47:543 Board       : --
+07:15:47:544 Voltage     : 3.25V
+07:15:47:568 SWD freq    : 240 KHz
+07:15:47:568 Connect mode: Under Reset
+07:15:47:572 Reset mode  : Hardware reset
+07:15:47:574 Device ID   : 0x410
+07:15:47:577 Revision ID : Rev X
+07:15:47:593 flash loader C:/ST/STM32CubeCLT_1.21.0/STM32CubeProgrammer/bin/FlashLoader/0x410.stldr is loaded
+07:15:47:595 Device name : STM32F101/F102/F103 Medium-density
+07:15:47:598 Reading data...
+07:15:47:599 r ap 0 @0x1FFFF7E0 0x00000004 bytes Data 0xFFFF0080
+07:15:47:599 NVM size  : 128 KBytes
+07:15:47:599 Device type : MCU
+07:15:47:600 Device CPU  : Cortex-M3
+07:15:47:600 BL Version  : --
+07:15:47:600 
+07:15:47:605 
+
+07:15:47:606 Opening and parsing file: blynk_2.bin
+07:15:47:606 
+
+07:15:47:607 Memory Programming ...
+07:15:47:607   File          : blynk_2.bin
+07:15:47:607   Size          : 3.30 KB 
+07:15:47:608   Address       : 0x08000000
+07:15:47:608 
+
+07:15:47:608 Erasing Segment <0> Address <0x08000000> Size <3376>Bytes
+07:15:47:608 Erasing memory corresponding to segment 0:
+07:15:47:610 r ap 0 @0x40022040 0x00000004 bytes Data 0x00000000
+07:15:47:610 Memory Erase via FlashLoader!
+07:15:47:610 Memory erase...
+07:15:47:615 halt ap 0 
+07:15:47:615 w ap 0 reg 15 PC   (0x20000000)  
+07:15:47:617 w ap 0 reg 17 MSP  (0x20000500)  
+07:15:47:620 w ap 0 reg 16 xPSR (0x01000000)  
+07:15:47:639 w ap 0 @0x20000960 : 0x00000200 bytes, Data 0x00000000...
+07:15:47:639 w ap 0 @0x20000000 : 0x00000004 bytes, Data 0x0000BE00...
+07:15:47:707 w ap 0 @0x20000004 : 0x0000053E bytes, Data 0xF000B580...
+07:15:47:708 Erasing internal memory sectors [0 3]
+07:15:47:709 Init flashloader...
+07:15:47:711 halt ap 0 
+07:15:47:715 w ap 0 reg 0 R0   0x00000001
+07:15:47:718 w ap 0 reg 1 R1   0x00000000
+07:15:47:722 w ap 0 reg 2 R2   0x00000000
+07:15:47:722 w ap 0 reg 3 R3   0x00000000
+07:15:47:722 w ap 0 reg 4 R4   0x00000000
+07:15:47:732 w ap 0 reg 5 R5   0x00000000
+07:15:47:732 w ap 0 reg 6 R6   0x00000000
+07:15:47:740 w ap 0 reg 7 R7   0x00000000
+07:15:47:744 w ap 0 reg 8 R8   0x00000000
+07:15:47:746 w ap 0 reg 9 R9   0x00000000
+07:15:47:751 w ap 0 reg 10 R10  0x00000000
+07:15:47:752 w ap 0 reg 11 R11  0x00000000
+07:15:47:758 w ap 0 reg 12 R12  0x00000000
+07:15:47:761 w ap 0 reg 13 SP   0x00000000
+07:15:47:764 w ap 0 reg 14 LR   0x20000001
+07:15:47:767 w ap 0 reg 15 PC   0x20000005
+07:15:47:769 w ap 0 reg 16 xPSR 0x01000000
+07:15:47:774 w ap 0 reg 17 MSP  0x2000093E
+07:15:47:776 w ap 0 reg 18 PSP  0x00000000
+07:15:47:776 run ap 0 
+07:15:47:789 halt ap 0 
+07:15:47:791 r ap 0 reg 0 R0   0x00000001
+07:15:47:792 Loader sector erase...
+07:15:47:796 w ap 0 reg 0 R0   0x08000000
+07:15:47:799 w ap 0 reg 1 R1   0x08000C00
+07:15:47:803 w ap 0 reg 2 R2   0x00000002
+07:15:47:806 w ap 0 reg 3 R3   0x00000000
+07:15:47:808 w ap 0 reg 4 R4   0x00000000
+07:15:47:808 w ap 0 reg 5 R5   0x00000000
+07:15:47:808 w ap 0 reg 6 R6   0x00000000
+07:15:47:821 w ap 0 reg 7 R7   0x00000000
+07:15:47:825 w ap 0 reg 8 R8   0x00000000
+07:15:47:828 w ap 0 reg 9 R9   0x00000000
+07:15:47:831 w ap 0 reg 10 R10  0x00000000
+07:15:47:835 w ap 0 reg 11 R11  0x00000000
+07:15:47:838 w ap 0 reg 12 R12  0x00000000
+07:15:47:839 w ap 0 reg 13 SP   0x00000000
+07:15:47:839 w ap 0 reg 14 LR   0x20000001
+07:15:47:839 w ap 0 reg 15 PC   0x200001AF
+07:15:47:839 w ap 0 reg 16 xPSR 0x01000000
+07:15:47:856 w ap 0 reg 17 MSP  0x2000093E
+07:15:47:856 w ap 0 reg 18 PSP  0x00000000
+07:15:47:856 run ap 0 
+07:15:47:954 halt ap 0 
+07:15:47:954 r ap 0 reg 0 R0   0x00000001
+07:15:47:954 erase: 0348ms
+07:15:47:954 Download in Progress:
+07:15:47:954   Size          : 3376 Bytes
+07:15:47:954   Address       : 0x08000000
+07:15:47:954 
+
+07:15:47:954 Buffer program...
+07:15:47:963 halt ap 0 
+07:15:47:963 w ap 0 reg 15 PC   (0x20000000)  
+07:15:47:963 w ap 0 reg 17 MSP  (0x20000500)  
+07:15:47:971 w ap 0 reg 16 xPSR (0x01000000)  
+07:15:47:990 w ap 0 @0x20000960 : 0x00000200 bytes, Data 0x00000000...
+07:15:47:998 w ap 0 @0x20000000 : 0x00000004 bytes, Data 0x0000BE00...
+07:15:48:054 w ap 0 @0x20000004 : 0x0000053E bytes, Data 0xF000B580...
+07:15:48:054 Loader write range...
+07:15:48:131 w ap 0 @0x20000960 : 0x00000698 bytes, Data 0x20005000...
+07:15:48:133 W B1 in RAM @0x20000960 size 0x00000698 : 0072ms
+07:15:48:134 Init flashloader...
+07:15:48:136 halt ap 0 
+07:15:48:139 w ap 0 reg 0 R0   0x00000001
+07:15:48:139 w ap 0 reg 1 R1   0x00000000
+07:15:48:139 w ap 0 reg 2 R2   0x00000000
+07:15:48:139 w ap 0 reg 3 R3   0x00000000
+07:15:48:139 w ap 0 reg 4 R4   0x00000000
+07:15:48:154 w ap 0 reg 5 R5   0x00000000
+07:15:48:154 w ap 0 reg 6 R6   0x00000000
+07:15:48:154 w ap 0 reg 7 R7   0x00000000
+07:15:48:166 w ap 0 reg 8 R8   0x00000000
+07:15:48:170 w ap 0 reg 9 R9   0x00000000
+07:15:48:173 w ap 0 reg 10 R10  0x00000000
+07:15:48:174 w ap 0 reg 11 R11  0x00000000
+07:15:48:174 w ap 0 reg 12 R12  0x00000000
+07:15:48:182 w ap 0 reg 13 SP   0x00000000
+07:15:48:185 w ap 0 reg 14 LR   0x20000001
+07:15:48:189 w ap 0 reg 15 PC   0x20000005
+07:15:48:192 w ap 0 reg 16 xPSR 0x01000000
+07:15:48:196 w ap 0 reg 17 MSP  0x2000093E
+07:15:48:197 w ap 0 reg 18 PSP  0x00000000
+07:15:48:197 run ap 0 
+07:15:48:197 halt ap 0 
+07:15:48:207 r ap 0 reg 0 R0   0x00000001
+07:15:48:207 w ap 0 reg 0 R0   0x08000000
+07:15:48:213 w ap 0 reg 1 R1   0x00000698
+07:15:48:213 w ap 0 reg 2 R2   0x20000960
+07:15:48:224 w ap 0 reg 3 R3   0x00000002
+07:15:48:227 w ap 0 reg 4 R4   0x00000000
+07:15:48:231 w ap 0 reg 5 R5   0x00000000
+07:15:48:234 w ap 0 reg 6 R6   0x00000000
+07:15:48:237 w ap 0 reg 7 R7   0x00000000
+07:15:48:238 w ap 0 reg 8 R8   0x00000000
+07:15:48:238 w ap 0 reg 9 R9   0x00000000
+07:15:48:238 w ap 0 reg 10 R10  0x00000000
+07:15:48:238 w ap 0 reg 11 R11  0x00000000
+07:15:48:238 w ap 0 reg 12 R12  0x00000000
+07:15:48:255 w ap 0 reg 13 SP   0x00000000
+07:15:48:256 w ap 0 reg 14 LR   0x20000001
+07:15:48:256 w ap 0 reg 15 PC   0x2000002F
+07:15:48:264 w ap 0 reg 16 xPSR 0x01000000
+07:15:48:264 w ap 0 reg 17 MSP  0x2000093E
+07:15:48:264 w ap 0 reg 18 PSP  0x00000000
+07:15:48:271 run ap 0 
+07:15:48:339 w ap 0 @0x20000FF8 : 0x00000698 bytes, Data 0xFE34F7FF...
+07:15:48:339 W B2 in RAM @0x20002B60 size 0x00000698: 0211ms
+07:15:48:339 r ap 0 reg 0 R0   0x00000001
+07:15:48:339 Wait W B1 in Flash @0x08000000 size 0x00000698: 0004ms
+07:15:48:355 w ap 0 reg 0 R0   0x08000698
+07:15:48:355 w ap 0 reg 1 R1   0x00000698
+07:15:48:355 w ap 0 reg 2 R2   0x20000FF8
+07:15:48:364 w ap 0 reg 3 R3   0x00000002
+07:15:48:364 w ap 0 reg 4 R4   0x00000000
+07:15:48:372 w ap 0 reg 5 R5   0x00000000
+07:15:48:374 w ap 0 reg 6 R6   0x00000000
+07:15:48:378 w ap 0 reg 7 R7   0x00000000
+07:15:48:381 w ap 0 reg 8 R8   0x00000000
+07:15:48:384 w ap 0 reg 9 R9   0x00000000
+07:15:48:387 w ap 0 reg 10 R10  0x00000000
+07:15:48:388 w ap 0 reg 11 R11  0x00000000
+07:15:48:388 w ap 0 reg 12 R12  0x00000000
+07:15:48:388 w ap 0 reg 13 SP   0x00000000
+07:15:48:388 w ap 0 reg 14 LR   0x20000001
+07:15:48:388 w ap 0 reg 15 PC   0x2000002F
+07:15:48:404 w ap 0 reg 16 xPSR 0x01000000
+07:15:48:404 w ap 0 reg 17 MSP  0x2000093E
+07:15:48:404 w ap 0 reg 18 PSP  0x00000000
+07:15:48:404 run ap 0 
+07:15:48:474 r ap 0 reg 0 R0   0x00000001
+07:15:48:474 Write elapsed time: 0414ms
+07:15:48:475 Sector[0] downloaded successfully
+07:15:48:475 
+
+07:15:48:475 File download complete
+07:15:48:476 Time elapsed during download operation: 00:00:00.867
+07:15:48:497 reset ap 0 
+07:15:48:497 
+MCU Reset
+07:15:48:497 run ap 0 
+07:15:48:505 Error: Unable to run MCU!
+07:15:48:505 Error: Error code: 19

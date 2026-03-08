@@ -1,0 +1,16 @@
+06:59:59:031       -------------------------------------------------------------------
+06:59:59:033                        STM32CubeProgrammer v2.22.0                  
+06:59:59:033       -------------------------------------------------------------------
+
+06:59:59:033 
+
+06:59:59:033 Log output file:   build\flash_log.txt
+06:59:59:033 Command line:  -c port=SWD mode=ur freq=240 -w "D:\My_Workspace\stm32-workspace\blynk_2\build\blynk_2.bin" 0x08000000 -rst -log build\flash_log.txt
+06:59:59:033 
+06:59:59:053 ST-LINK SN  : B55B5A1A000000000D00F601
+06:59:59:053 ST-LINK FW  : V2J47S7
+06:59:59:053 Board       : --
+06:59:59:053 Voltage     : 3.26V
+06:59:59:171 Error: Unable to get core ID
+06:59:59:173 Error: No STM32 target found! If your product embeds Debug Authentication, please perform a discovery using Debug Authentication
+06:59:59:178 Disconnected

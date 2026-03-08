@@ -1,0 +1,10 @@
+07:12:00:220       -------------------------------------------------------------------
+07:12:00:220                        STM32CubeProgrammer v2.22.0                  
+07:12:00:220       -------------------------------------------------------------------
+
+07:12:00:221 
+
+07:12:00:221 Log output file:   build\flash_log_retry.txt
+07:12:00:222 Command line:  -c port=SWD mode=ur freq=400 -w "D:\My_Workspace\stm32-workspace\blynk_2\build\blynk_2.bin" 0x08000000 -rst -log build\flash_log_retry.txt
+07:12:00:222 
+07:12:02:342 ST-LINK error (DEV_CONNECT_ERR)
